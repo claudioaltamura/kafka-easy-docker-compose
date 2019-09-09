@@ -23,13 +23,13 @@ Example with console producer and consumer
 
 Download and install Kafka https://kafka.apache.org/downloads
 
-Console 1
+console 1
 ```
 cd ./kafka_2.12-2.3.0/bin
 ./kafka-console-producer.sh --broker-list localhost:9092 --topic my_topic
 ```
 
-Console 2
+console 2
 ```
 cd ./kafka_2.12-2.3.0/bin
 ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic my_topic --f
