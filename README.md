@@ -29,3 +29,6 @@ Console 2
 cd ./kafka_2.12-2.3.0/bin
 ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic my_topic --f
 
+Kafka Operations
+================
+An [kafka-operations.md](see here).
